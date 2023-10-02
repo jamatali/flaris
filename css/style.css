@@ -1,0 +1,1036 @@
+/* Globals */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	/* background-color: #1e205a; */
+}
+.row{
+    width: 100%;
+    /* float: left; */
+}
+img{
+    max-width: 100%;
+}
+/* Header */
+header{
+    min-height: 90px;
+    background-color: #1E1E1E;
+    border-bottom:1px solid #1A1A1A;
+}
+.logo{
+    float: left;
+    width: 20%;
+    
+}
+.logo a{
+    line-height: 90px;
+}
+.navbar{
+    float: right;
+    width: 80%;
+}
+.navbar ul{
+    list-style: none;
+    padding-right: 65px;
+    text-align: right;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left:42px;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    
+}
+.navbar ul li a{
+    line-height: 90px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 2px #ffffff;
+    font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+.navbar ul li:hover{
+   border-bottom: 1px solid #00AAFF;
+   transition-duration: 0.5s;
+   transition-delay: 0.5s;
+    
+}
+.banner{
+    background-image: url('../images/header_banner_home_filtr.jpg');
+    width: 100%;
+    height: 110vh;
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+
+  
+}
+.banner-text{
+    padding: 50px 0;
+}
+.in-line{
+    display: inline-block;
+    color: #00AAFF;
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    
+}
+.h1-icon{
+    font-size: 20px;
+}
+.banner-text span{
+    color: white;
+    font-size: 37px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.spn{
+    padding-top: 20px;
+}
+.down-arrow{
+    margin-top: 480px;
+    color: white;
+    font-size: 30px;
+    display: inline-block;
+}
+.down-arrow a:hover{
+    cursor: pointer;
+}
+.banner2{
+    background-image: url('../images/rewolucja_w_lotnictwie.jpg');
+    color: #666666;
+    font-size: 17px;
+    padding-top: 40px;
+}
+.spn p{
+    padding: 10px 240px;
+    line-height: 23.8px;
+}
+.in-line1 strong{
+    color: #333333;
+    font-size: 29px;
+}
+.spect{
+    text-align: center;
+    padding: 70px 150px;
+    font-size: 17px;
+    line-height: 23.8px;
+    font-weight: 500;
+    color: #666666;
+    font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+}
+.in-line2{
+    font-size: 26px;
+    color: #333333;
+
+}
+.spn1 p{
+    padding: 60px 80px;
+}
+.bord{
+    padding: 30px 0;
+    font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+    margin-bottom: 20px;
+}
+.bord-pd{
+    border: 1px solid #CCCCCC;
+    padding: 30px 0;
+    font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+    margin-bottom: 20px;
+}
+.in{
+    display: inline-block;
+}
+.craft-type{
+    width: 34%;
+    padding: 0 10px;
+}
+.cost-1mile{
+    width: 33%;
+}
+.cost-hour{
+    width: 30%;
+}
+.clr{
+    color: #515254;
+    font-size: 17px;
+}
+.inw{
+    width: 35%;
+}
+.inv{
+    width: 60%;
+}
+.banner3{
+    background-image: url('../images/flarislar01_filtr.jpg');
+    color: white;
+    font-size: 17px;
+    padding: 40px 0 100px 0;
+    margin-top: 80px;
+    height: 130vh;
+    background-position: bottom;  
+    box-sizing: border-box;
+}
+.b{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn{
+    padding: 20px 40px;
+    background-color: #1E1E1E;
+    color: #0AAAFF;
+    border: 1px solid #0AAAFF;
+    margin-top: 30px;
+    font-size: 15px;
+    
+}
+.btn:hover{
+    background-color: #0AAAFF;
+    color: white;
+    cursor: pointer;
+}
+.cw{
+    color: white;
+    padding-left: 20px;
+}
+.be-pilot{
+    margin: 0 40px 0 40px;
+}
+.custm-row{
+    margin: 350px 0;
+   
+}
+.banner4{
+    background-image: url('../images/wiadomosci_i_informacje_prasowe_filtr.jpg');
+    color: white;
+    font-size: 17px; 
+    padding: 160px 0;  
+    box-sizing: border-box;
+    height: auto;
+    background-position: center;
+}
+.news-press h1{
+    color: #ffffff;
+
+}
+.cw1{
+    color: #00AAFF;
+}
+.btn2{
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(255, 255,255, 0);
+    padding: 15px 50px;
+    
+}
+.btn2:hover{
+    background-color: white;
+    color: #00AAFF;
+    cursor: pointer;
+}
+footer{
+    background-color: #1E1E1E;
+    font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+    padding-bottom: 50px;
+}
+.row-pad{
+    padding: 80px 0 50px 0;
+}
+.pd{
+    padding: 0 0 40px 0;
+    border-bottom:1px solid #CCCCCC;
+}
+.ft{
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+    padding: 0 5px;
+}
+.ft h3{
+    color:white;
+    padding-bottom: 20px;
+}
+.ft1{
+    width: 50%;
+}
+.ft ul{
+    list-style: none;
+}
+.ft ul li{
+    line-height: 30px;
+}
+.ft ul li a{
+    text-decoration: none;
+    color: #9BC1CC;
+}
+.empty{
+    display: inline-block;
+    width: 51%;
+}
+.email{
+    display: inline-block;
+    width: 48%;
+    color: white;
+}
+.h3h{
+    padding: 0 0 30px 0;
+}
+.inp{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0 10px 10px;
+}
+.cw2{
+    color: #1E1E1E;
+    
+}
+.btn5{
+    width: 100%;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+.pd1{
+    padding: 20px 0 80px 0;
+    color: #9BC1CC;
+}
+.register{
+    float: left;
+}
+.you-icon{
+    float: right;
+}
+.icn{
+    padding: 10px;
+    background-color: #666666;
+    margin-left: 4px;
+}
+.banner-air{
+    background-image: url('../images/flarislar01_filtr.jpg');
+    font-size: 17px;
+    padding: 30px 0 80px 0;
+    height: 120vh;   
+}
+.down-arrow-aircraft{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 5px 12px;
+}
+.down-arrow-aircraft{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 5px 12px;
+}
+.down-arrow-aircraft a{
+  color: white;
+}
+.nav-custom{
+    text-align: center;
+}
+.nav-custom ul{
+    list-style: none;
+}
+.nav-custom ul li{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    
+}
+.nav-custom ul li a{
+    line-height: 90px;
+    text-decoration: none;
+    color: #666666;
+    text-shadow: 0 0 2px #ffffff;
+    font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+.nav-custom ul li a:hover{
+    text-shadow: 0 0 1px #666666;
+    opacity: 0.7;
+}
+.flaris-lar01{
+    background-image: url('../images/tlo_do_foty.png');
+    /* height: 100vh; */
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+    box-sizing: border-box;
+    font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+} 
+.flaris{
+    color: #333333;
+}
+.spnfl{
+    padding: 40px 240px 0 240px;
+    font-size: 17px;
+    font-weight: 400;
+    box-sizing: border-box;
+    color:#666666;
+}
+.features{
+    text-align: center;
+    padding-top: 60px;
+    box-sizing: border-box;
+    font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+}
+.featur{
+    color: #333333;
+}
+.featur-spa{
+    padding: 30px 240px 30px 240px;
+    font-size: 17px;
+    font-weight: 400;
+    box-sizing: border-box;
+    color:#666666;
+}
+.rotox{
+    /* padding: 10px 0;
+    box-sizing: border-box; */
+    margin-bottom: 50px;
+    /* border: 1px solid red; */
+}
+.left
+{
+    display: inline-block;
+    width: 37%;
+    border: 1px solid #666666;
+    padding: 71px 45px 71px 45px;
+    box-sizing: border-box;
+    vertical-align: top;
+    
+}
+.ml{
+    margin-right: 32px;
+}
+.right{
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+.mr{
+    margin-left: 32px;
+    text-align: left;
+    padding: 71px 20px 50px 45px;
+    box-sizing: border-box;
+
+}
+.featur-spa1{
+    padding: 30px 0 70px 0;
+    font-size: 17.333px;
+    font-weight: 500;
+    box-sizing: border-box;
+    color:#666666;
+    line-height: 23.8px;
+}
+.sth{
+    font-size: 18px;
+    text-align: left;
+}
+.cockpit{
+    background-image: url('../images/kabina_filtr.jpg');
+    color: white;
+    height: 145vh;
+    padding: 60px 0;
+    background-position:center;
+    box-sizing: border-box;
+    background-size: cover;
+    
+}
+.cockpit1{
+    text-align: center;
+}
+.flcs{
+    color: white;
+}
+.spnfl2{
+    text-align: left;
+    color: white;
+    padding: 40px 190px 0 190px;
+    box-sizing: border-box;
+}
+.kl{
+
+}
+.i1{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    vertical-align: top;
+    position: relative;
+}
+.img-num1{
+    margin: 400px 0 0 210px;
+    
+}
+.img-num2{
+    margin: 160px 0 0 160px;
+}
+.img-num3{
+    margin: 380px 0 0 160px;
+}
+.img-num4{
+    margin: 200px 0 0 20px;
+}
+.img-num5{
+    margin: 250px 0 0 230px;
+}
+.imgesd{
+    margin: -57px 0 0 0;
+    opacity: 0;
+    display: block;
+
+}
+.imgesd:hover{
+    opacity: 1;
+}
+.mp{
+    padding: 10px 0 15px 0;
+    font-size: 17.333px;
+    font-weight: 500;
+    box-sizing: border-box;
+    color:#666666;
+    line-height: 23.8px;
+}
+.kadlub{
+    background-image: url('../images/kadlub_filtr.jpg');
+    
+}
+.img-num11{
+    margin: 260px 0 0 180px;
+    
+}
+.img-num22{
+    margin: 135px 0 0 150px;
+}
+.img-num33{
+    margin: 310px 0 0 315px;
+}
+.img-num44{
+    margin: 250px 0 0 260px;
+}
+.tal{
+    text-align: left;
+    padding: 15px 0;
+}
+.spac{
+    padding: 30px 120px 30px 120px;
+    line-height: 23px;
+}
+.exterior{
+    background-image: url('../images/design_filtr.jpg');
+}
+.fl1{
+    padding: 40px 150px 40px 150px;
+}
+.img-num111{
+    margin: 310px 0 0 150px;
+    
+}
+.img-num222{
+    margin: 230px 0 0 45px;
+}
+.img-num333{
+    margin: 265px 0 0 430px;
+}
+.img-num44{
+    margin: 405px 0 0 220px;
+}
+.specifications{
+    background-image: url('../images/specyfikacja.jpg');
+    overflow: hidden;
+    background-size: cover;
+    background-position-x: -270px;
+    height:80vh;
+
+}
+.cusc{
+    color: #333333;
+    font-family: barlow;
+}
+.pra{
+    margin-top: 80px;
+}
+.specs-in{
+    width: 23.8%;
+    display: inline-block;
+    vertical-align: top;
+}
+.specs-detail{
+    border: 1px solid gray;
+    padding: 0 0 16px 30px;
+    box-sizing: border-box;
+    color: #515254;
+    font-family: Barlow, Helvetica, Arial, Lucida, sans-serif;
+}
+.barr{
+    width: 20%;
+    border-bottom: 1px solid gray;
+}
+.detail-text{
+    line-height: 23.8px;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.spec-perform{
+    background-color: #1E1E1E;
+    padding: 60px 0 0 0;
+}
+.spec1{
+    border: 1px solid #515254;
+    width: 23%;
+    display: inline-block;
+    padding: 40px 0 60px 30px;
+    color: white;
+    font-family: barlow;
+    box-sizing: border-box;
+    vertical-align:top ;
+}
+.performance{
+    width: 44%;
+    margin-left: 50px;
+}
+.power{
+    margin-left: 50px;
+}
+.dtc p{
+    line-height: 35px;
+}
+.barr1{
+    width: 15%;
+    border-bottom: 2px solid white;
+}
+.pdcp{
+    padding-bottom: 38px;
+}
+.div-perf1{
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+.div-perfp{
+    padding-top: 25px;
+}
+.margin-nill{
+    margin-top: 0;
+}
+.dis-in{
+    display: inline-block;
+    vertical-align: top;
+}
+.bg-img{
+    width: 40%;
+    background-image: url('../images/masz_pytania_filtr.jpg');
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.contact-right{
+    width: 55%;
+    /* border: 1px solid gray; */
+    padding: 80px 0 30px 60px;
+    box-sizing: border-box;
+}
+.cont-frm{
+   margin-top: 20px;
+}
+.fst{
+    display: inline-block;
+    width: 45%;
+    margin-left: 17px;
+}
+.inp-disp{
+    width: 100%;
+    padding: 15px 10px;
+    color: #393739;
+    border-color: #EFEFEF;
+    box-sizing: border-box;
+}
+.mr-tp{
+    margin-top: 60px;
+}
+/* .text-m{
+    width: 97%;
+    height: 200px;
+    margin-left: 15px;
+    padding-top: 0;
+} */
+.marg-l{
+    margin-left: 15px;
+}
+.in-send{
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    
+}
+.cont-frm-text{
+    color: gray;
+    margin-top: 10px;
+    margin-left: 400px;
+    width: 35%;
+    text-align: right;
+    
+}
+.get-in{
+    padding: 12px;
+    background-color: #CCCCCC;
+    width: 100%;
+}
+.btn-send{
+    border: 1px solid #00AAFF;
+    padding: 10px 15px;
+    color: #00AAFF;
+    font-size: 17px;
+    box-sizing: border-box;
+}
+.hovd{
+    opacity: 0;
+}
+.hovd:hover{
+  opacity: 1;
+}
+.pilotuzu{
+    background-image: url('../images/header-banner-kurs-pilotazu.jpg');
+    background-position: bottom;
+}
+.icon-pad{
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.be-pilot{
+    margin-top: 50px;
+    text-align: left;
+    padding: 0;
+    border: 1px solid red;
+}
+.mr1{
+    width: 40%;
+    display: inline-block;
+    vertical-align:top ;
+}
+.mr2{
+    width: 47%;
+    display: inline-block;
+    border: 1px solid #CCCCCC;
+    vertical-align:top ;
+    padding: 60px 60px 140px;
+    margin-left: 100px;
+    
+
+}
+.be{
+    text-align: left;
+    margin-top: 50px;
+}
+.lh{
+    line-height: 30px;
+    font-weight: 400;
+}
+.btn-be-pilot{
+    /* margin-top: 40px; */
+    background-color: #ffffff;
+    color: #00AAFF;
+    border: none;
+    padding: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+.btn-be-pilot:hover{
+   cursor: pointer;
+}
+.padb-be{
+    padding-bottom: 88px;
+}
+.margintop-b{
+    margin: 30px 0 20px;
+}
+.purchase-banner{
+    height: 120vh;
+    background-position: bottom;
+    background-image: url('../images/header-banner-zakup-leasing.jpg');
+}
+.spn23 p{
+    padding: 10px;
+}
+.spn12{
+    /* border: 1px solid red; */
+    padding: 30px 140px;
+}
+/* .bord-purchase{
+    border: 1px solid red;
+} */
+.purchase-padmarg{
+    margin: 0;
+    padding: 10px 0;
+}
+.ptd{
+    padding: 65px 30px;
+}
+.purchase-1{
+   background-color: #1E1E1E;
+   
+}
+.purchase-backgroud{
+    background-image: url('../images/enface-4.png');
+    height: 75vh;
+    background-position:center;
+    background-size: cover;
+
+}
+.purchase-pic{
+    width: 59%;
+    display: inline-block;
+}
+.purchase-text{
+    width: 40%;
+    display: inline-block;
+    /* border: 1px solid red; */
+    color:white;
+    padding-top: 60px;
+}
+.clh1{
+    color: #ffffff;
+}
+.purchase-text p{
+    padding: 60px 20px;
+    font-size: 17px;
+    line-height: 23.8px;
+}
+.text-ali{
+    text-align: center;
+
+}
+.text-ali button{
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #0AAAFF;
+    border: 1px solid #00AAFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.text-ali button:hover{
+    background-color: rgba(0, 150, 255, 1);
+    cursor: pointer;
+    color:white;
+    opacity:1;
+    
+}
+.purchase-backgroud1{
+    /* background-image: url('../images/leasing.png');
+    height: 65vh;
+    background-position:middle right;
+    background-size: cover; */
+
+}
+.p59{
+    width: 59%;
+}
+.p40{
+    width: 40%;
+    background-image: url('../images/leasing.png');
+    height: 65vh;
+    background-position:middle right;
+    background-size: cover;
+}
+.text-center{
+    text-align: center;
+}
+/* .purchase-backgroud3{
+    background-image: url('../images/wynajem.png');
+    height: 90vh;
+    background-position:top;
+    background-size: cover;
+} */
+.pic45{
+    background-image: url('../images/wynajem.png');
+    height: 70vh;
+    background-position:top;
+    background-size: cover;
+    width: 45%;
+
+}
+.text54{
+    width: 54%;
+    vertical-align: top;
+}
+.news{
+    background-position: center;
+    background-image: url(../images/Flaris_Header_info_prasowe.jpg);
+}
+.row-news{
+    border: 1px solid #CCCCCC;
+    margin-top: 40px;
+}
+.news-photo{
+    width: 40%;
+    display: inline-block;
+}
+.news-detail{
+    width: 59%;
+    display: inline-block;
+    padding: 40px 0 0 20px;
+    vertical-align: top;
+    color: #666682;
+    
+}
+.news-detail h3{
+    color: #00AAFF;
+}
+.news-detail h6{
+    margin: 20px 0 0 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+.news-detail p{
+    margin: 10px 0 0 0;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.row-older{
+    margin: 60px 0 40px 0;
+    color: #5C4C4C;
+}
+.old-icon{
+    display: inline-block;
+}
+.old-hed{
+    display: inline-block;
+}
+.row-older a:hover{
+    cursor: pointer;
+
+}
+.our-stor{
+    height: 100vh;
+    background-position: center;
+    background-image: url('../images/header-banner-historia.jpg');
+}
+.our-story-img-text{
+    margin-top: 40px;
+    text-align: left;
+    color: #515254;
+}
+.our-story-img{
+    width: 48.5%;
+    float: left;
+    
+}
+.our-story-img img{
+    height: 350px;
+}
+.our-story-text{
+    width: 48.5%;
+    float: right;
+    border: 1px solid #CCCCCC;
+    padding: 60px 30px;
+    line-height: 23px;
+    font-size: 17px;
+    height: 350px;
+
+}
+.clear{
+    clear: both;
+}
+.flo-left{
+    float: left;
+}
+.flo-right{
+    float: right;
+}
+.the-future{
+    padding-top: 80px;
+    text-align: center;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: 60px;
+    background-image: url('../images/przyszlosc_filtr.jpg');
+}
+.text-clr{
+    color: white;
+}
+.the-future p{
+    padding: 40px 290px;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+}
+.banner-contact{
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: url('../images/header_banner_kontakt_filtr.jpg');
+}
+.contact-row{
+    text-align: left;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+
+}
+.contact-details{
+    width: 50%;
+    margin-left: 50%;
+    /* border: 1px solid blue; */
+    color: #515254;
+}
+.contact-details h2{
+    color: #323232;
+    font-size: 25px;
+}
+.tele-row{
+    min-height: 50px;
+    padding: 1px;
+    margin-top: 30px;
+}
+.img-icon{
+    display: inline-block;
+    width: 5%;
+    vertical-align: middle;
+}
+.img-icon img{
+   /* height: 20px; */
+}
+
+.tele{
+    display: inline-block;
+    width: 50%;
+    
+}
+.tele span{
+    font-size:18px;
+}
+.contact-details h4{
+    color: #515254;
+    margin: 20px 0;
+}
+.contact-details h4 a{
+    color: #00AAFF;
+    text-decoration: none;
+}
+.map{
+    margin-top: 40px;
+    height: 80vh;
+    background-position: center;
+    background-image: url('../images/map.png');
+}
